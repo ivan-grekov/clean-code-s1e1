@@ -71,7 +71,7 @@
 
 /* Heading */
 .section__title-text,
-label[for="new-task"] {
+.section-add__title-item {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -100,7 +100,7 @@ label[for="new-task"] {
 }
 
 /* New Task */
-label[for="new-task"] {
+.section-add__title-item {
   display: block;
   margin: 0 0 20px;
 }
@@ -133,7 +133,7 @@ label[for="new-task"] {
   flex-grow: 1;
 }
 
-.section__task-item > input[type="text"] {
+.section__task-item > .task {
   width: 226px;
 }
 
@@ -154,11 +154,11 @@ label[for="new-task"] {
 }
 
 /* Edit Task */
-.section__task-item input[type="text"] {
+.section__task-item .task {
   display: none;
 }
 
-.section__task-item_editMode input[type="text"] {
+.section__task-item_editMode .task {
   display: inline-block;
   width: 224px;
 }
